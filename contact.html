@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact | JWP Home Services</title>
+	<meta name="description" content="What's on your list? Call or text JWP Home Services at 845-490-3721, or request a free estimate online. Serving Putnam, Westchester &amp; the Hudson Valley.">
+
+	<!-- responsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/jwp-design-system.css">
+    <link rel="stylesheet" href="assets/css/jwp-pages.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16">
+</head>
+
+<body>
+<div class="ja-page">
+
+    <!-- Top utility bar -->
+    <div class="ja-topbar">
+        <div class="ja-topbar-inner">
+            <div class="ja-topbar-left">
+                <span>Licensed General Contractor</span>
+                <span class="ja-topbar-dot"></span>
+                <span>30+ Years of Experience</span>
+                <span class="ja-topbar-dot"></span>
+                <span>No Job Too Small</span>
+            </div>
+            <a href="sms:8454903721" class="ja-topbar-sms">
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="1.5" y="2.5" width="13" height="9" rx="2"></rect><path d="M4.5 14.5l2-3"></path></svg>
+                Text us a photo
+            </a>
+        </div>
+    </div>
+
+    <!-- Header / nav -->
+    <header class="ja-header">
+        <div class="ja-header-inner">
+            <a href="index.html" class="ja-logo"><img class="ja-logo-img" src="assets/images/brand/logo.svg" alt="JWP Home Services"></a>
+            <nav class="ja-nav">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="our-work.html">Our Work</a>
+                <a href="about.html">About</a>
+                <a href="service-area.html">Service Area</a>
+                <a href="contact.html" class="is-active">Contact</a>
+            </nav>
+            <div class="ja-header-actions">
+                <a href="contact.html" class="ja-btn-outline">Request Quote</a>
+                <a href="tel:8454903721" class="ja-btn-primary">
+                    <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M3 2.5h3l1 3-1.8 1.2a9 9 0 004.1 4.1L10.5 9l3 1v3a1 1 0 01-1.1 1A11.5 11.5 0 012 3.6 1 1 0 013 2.5z"></path></svg>
+                    845-490-3721
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="ja-hero">
+        <div class="ja-hero-inner">
+            <div class="ja-eyebrow-row">
+                <span class="ja-eyebrow-bar"></span>
+                <span class="ja-eyebrow">Get in touch</span>
+            </div>
+            <h1>What's on Your List?</h1>
+            <div class="ja-breadcrumb">
+                <a href="index.html">Home</a>
+                <span class="ja-breadcrumb-sep">/</span>
+                <span class="ja-breadcrumb-current">Contact</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick contact + form -->
+    <section style="padding:104px 0 108px; background:#FFFFFF">
+        <div class="ja-split-info">
+            <div>
+                <h2>Tell us what needs fixing</h2>
+                <p>Call, text, or send a few photos &mdash; tell us what's on your list.</p>
+                <div class="ja-cta-buttons" style="justify-content:flex-start; margin-bottom:24px">
+                    <a href="tel:8454903721" class="ja-btn-primary">
+                        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M3 2.5h3l1 3-1.8 1.2a9 9 0 004.1 4.1L10.5 9l3 1v3a1 1 0 01-1.1 1A11.5 11.5 0 012 3.6 1 1 0 013 2.5z"></path></svg>
+                        Call 845-490-3721
+                    </a>
+                    <a href="sms:8454903721" class="ja-btn-outline">Text Us a Photo</a>
+                </div>
+                <div class="ja-badges">
+                    <span class="ja-badge">Westchester Lic # WC-37178-H23</span>
+                    <span class="ja-badge">Putnam Lic # 52288</span>
+                </div>
+            </div>
+
+            <div class="ja-form-card">
+                <h2>Or request a free estimate</h2>
+                <form id="contact-form" name="contact_form" action="assets/inc/sendmail.php" method="post">
+                    <div class="ja-form-grid">
+                        <div class="ja-form-field">
+                            <input type="text" name="form_name" placeholder="Your name" required>
+                        </div>
+                        <div class="ja-form-field">
+                            <input type="email" name="form_email" placeholder="Email address">
+                        </div>
+                        <div class="ja-form-field">
+                            <input type="text" name="form_phone" placeholder="Phone number" required>
+                        </div>
+                        <div class="ja-form-field">
+                            <select name="form_service">
+                                <option value="">Service category</option>
+                                <option value="Handyman & Home Repairs">Handyman &amp; Home Repairs</option>
+                                <option value="Drywall, Painting & Interior Repairs">Drywall, Painting &amp; Interior Repairs</option>
+                                <option value="Doors, Locks & Hardware">Doors, Locks &amp; Hardware</option>
+                                <option value="Power Washing & Exterior Cleaning">Power Washing &amp; Exterior Cleaning</option>
+                                <option value="Mounting, Fixtures & Installation">Mounting, Fixtures &amp; Installation</option>
+                                <option value="Seasonal Home Maintenance">Seasonal Home Maintenance</option>
+                                <option value="Pre-Sale Home Improvements">Pre-Sale Home Improvements</option>
+                                <option value="Not sure / other">Not sure / other</option>
+                            </select>
+                        </div>
+                        <div class="ja-form-field">
+                            <input type="text" name="form_town" placeholder="Town / ZIP">
+                        </div>
+                        <div class="ja-form-field">
+                            <select name="form_timing">
+                                <option value="">Timing</option>
+                                <option value="ASAP">ASAP</option>
+                                <option value="This week">This week</option>
+                                <option value="Next few weeks">Next few weeks</option>
+                                <option value="Planning ahead">Planning ahead</option>
+                            </select>
+                        </div>
+                        <div class="ja-form-field ja-form-field-full">
+                            <textarea name="form_message" placeholder="Describe your project" required></textarea>
+                        </div>
+                    </div>
+                    <input id="form_botcheck" name="form_botcheck" type="hidden" value="" style="display:none">
+                    <button class="ja-form-submit" type="submit">Send My Project</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reach us directly + map -->
+    <section style="background:#F4F6F9; border-top:1px solid #E2E5EA; border-bottom:1px solid #E2E5EA; padding:96px 0">
+        <div class="ja-split-info">
+            <div>
+                <h2>Reach us directly</h2>
+                <p>JWP is based in Putnam Valley and works throughout Putnam, Westchester and the surrounding Hudson Valley. No office visits needed &mdash; just call or text.</p>
+                <ul class="ja-contact-info-list">
+                    <li>
+                        <span class="ja-info-icon"><svg width="17" height="17" viewBox="0 0 16 16" fill="none" stroke="#0F4C81" stroke-width="1.7" stroke-linecap="round"><path d="M3 2.5h3l1 3-1.8 1.2a9 9 0 004.1 4.1L10.5 9l3 1v3a1 1 0 01-1.1 1A11.5 11.5 0 012 3.6 1 1 0 013 2.5z"></path></svg></span>
+                        <div>
+                            <h5>Call</h5>
+                            <p><a href="tel:8454903721">845-490-3721</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="ja-info-icon"><svg width="17" height="17" viewBox="0 0 16 16" fill="none" stroke="#0F4C81" stroke-width="1.6"><rect x="1.5" y="2.5" width="13" height="9" rx="2"></rect><path d="M4.5 14.5l2-3"></path></svg></span>
+                        <div>
+                            <h5>Text a photo</h5>
+                            <p><a href="sms:8454903721">845-490-3721</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="ja-info-icon"><svg width="17" height="17" viewBox="0 0 16 16" fill="none" stroke="#0F4C81" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 14.5S2.5 10 2.5 6a5.5 5.5 0 0111 0c0 4-5.5 8.5-5.5 8.5z"></path><circle cx="8" cy="6" r="1.8"></circle></svg></span>
+                        <div>
+                            <h5>Service area</h5>
+                            <p>Putnam Valley, Cortlandt Manor, Yorktown, Croton, Somers, Mahopac, Fishkill, Beacon, Brewster, Briarcliff &amp; surrounding areas</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <iframe class="ja-map-embed" src="https://www.google.com/maps?q=Putnam+Valley,+NY&z=11&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="JWP Home Services service area map"></iframe>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="ja-faq-section">
+        <div class="ja-faq-inner">
+            <h2>Frequently Asked Questions</h2>
+            <div class="ja-faq-grid">
+                <div>
+                    <details class="ja-faq-item" open>
+                        <summary>Do you take small jobs?</summary>
+                        <p>Yes. No job is too small. Handyman services have a one-hour minimum.</p>
+                    </details>
+                    <details class="ja-faq-item">
+                        <summary>What do handyman services cost?</summary>
+                        <p>$100 per hour with a one-hour minimum.</p>
+                    </details>
+                    <details class="ja-faq-item">
+                        <summary>Do you provide free estimates?</summary>
+                        <p>Yes. Free estimates are available.</p>
+                    </details>
+                    <details class="ja-faq-item">
+                        <summary>Can I text photos of the project?</summary>
+                        <p>Absolutely. Texting us a photo is one of the easiest ways to start.</p>
+                    </details>
+                </div>
+                <div>
+                    <details class="ja-faq-item">
+                        <summary>Can I give you a list of several projects?</summary>
+                        <p>Yes. In fact, that's encouraged.</p>
+                    </details>
+                    <details class="ja-faq-item">
+                        <summary>Do you offer same-day service?</summary>
+                        <p>Same-day and emergency service may be available depending on our schedule.</p>
+                    </details>
+                    <details class="ja-faq-item">
+                        <summary>What areas do you serve?</summary>
+                        <p>JWP is based in Putnam Valley and serves Putnam, Westchester and surrounding Hudson Valley communities.</p>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="ja-footer">
+        <div class="ja-footer-inner">
+            <div class="ja-footer-strip">
+                <div>
+                    <div class="ja-footer-strip-label">Based in</div>
+                    <p>Westchester &amp; the Hudson Valley, New York</p>
+                </div>
+                <div>
+                    <div class="ja-footer-strip-label">Call Us or Text a Photo</div>
+                    <p><a href="tel:8454903721">845-490-3721</a></p>
+                </div>
+            </div>
+
+            <div class="ja-footer-main">
+                <div class="ja-footer-brand">
+                    <a href="index.html" class="ja-logo"><img class="ja-logo-img" src="assets/images/brand/logo.svg" alt="JWP Home Services"></a>
+                    <p>Building trust through quality work.<br>Your home repair list, handled.<br>No job too small.</p>
+                    <div class="ja-footer-badges">
+                        <span>Westchester Lic # WC-37178-H23</span>
+                        <span>Putnam Lic # 52288</span>
+                    </div>
+                </div>
+                <div class="ja-footer-col">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="our-work.html">Our Work</a></li>
+                        <li><a href="service-area.html">Service Area</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="ja-footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Handyman &amp; Home Repairs</a></li>
+                        <li><a href="services.html">Drywall &amp; Painting</a></li>
+                        <li><a href="services.html">Doors, Locks &amp; Hardware</a></li>
+                        <li><a href="services.html">Power Washing</a></li>
+                        <li><a href="services.html">Mounting &amp; Installation</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="ja-footer-bottom">
+                &copy; 2026 JWP Home Services LLC. All rights reserved. &middot; Westchester Lic # WC-37178-H23 &middot; Putnam Lic # 52288
+            </div>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>

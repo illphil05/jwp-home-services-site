@@ -1,0 +1,120 @@
+/* ==============================================
+   JWP Home Services — Our Work, Service Area,
+   Contact & error page additions.
+   Loads after jwp-design-system.css
+   =============================================== */
+
+/* --- Generic intro block (reused across utility pages) --- */
+.ja-page-intro { padding: 104px 0 40px; background: #FFFFFF; }
+.ja-page-intro-inner { max-width: 1240px; margin: 0 auto; padding: 0 32px; }
+
+/* --- Coming soon (Our Work) --- */
+.ja-comingsoon-section { padding: 24px 0 116px; background: #FFFFFF; }
+.ja-comingsoon-inner { max-width: 1240px; margin: 0 auto; padding: 0 32px; }
+.ja-comingsoon-gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-bottom: 40px; }
+.ja-comingsoon-gallery .ja-photo-placeholder { height: 220px; }
+.ja-comingsoon-card {
+    text-align: center; max-width: 720px; margin: 0 auto;
+    background: #F4F6F9; border: 1px dashed #CBD5E1; border-radius: 12px; padding: 52px 40px;
+}
+.ja-comingsoon-card h2 {
+    font-family: 'Hanken Grotesk', sans-serif; font-size: 32px; line-height: 1.15;
+    letter-spacing: -0.02em; font-weight: 800; color: #0F4C81; margin: 0 0 28px;
+}
+.ja-comingsoon-card p { font-size: 17px; line-height: 1.7; color: #5C636D; margin: 0 0 28px; }
+
+/* --- Two-column layout (Service Area, Contact) --- */
+.ja-split-info { max-width: 1240px; margin: 0 auto; padding: 0 32px; display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 56px; align-items: start; }
+.ja-split-info h2 {
+    font-family: 'Hanken Grotesk', sans-serif; font-size: 38px; line-height: 1.12;
+    letter-spacing: -0.025em; font-weight: 800; color: #0F4C81; margin: 0 0 16px;
+}
+.ja-split-info > div > p { font-size: 17px; line-height: 1.65; color: #5C636D; margin: 0 0 24px; }
+.ja-split-info p.ja-strong-note { font-size: 16px; font-weight: 600; color: #2A2E33; margin: 0 0 20px; }
+
+.ja-town-list { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 32px; }
+.ja-town-chip { font-size: 14px; font-weight: 600; color: #0F4C81; background: #F4F6F9; border: 1px solid #CBD8E5; padding: 10px 18px; border-radius: 30px; }
+
+.ja-map-embed { width: 100%; height: 420px; border: 0; border-radius: 12px; }
+
+.ja-contact-info-list { display: flex; flex-direction: column; gap: 24px; margin-bottom: 0; }
+.ja-contact-info-list li { display: flex; align-items: flex-start; gap: 16px; }
+.ja-contact-info-list .ja-info-icon {
+    flex: none; width: 44px; height: 44px; border-radius: 8px; background: #F4F6F9;
+    border: 1px solid #CBD8E5; display: flex; align-items: center; justify-content: center;
+}
+.ja-contact-info-list h5 { font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #7A828C; margin: 0 0 4px; }
+.ja-contact-info-list p { font-size: 16px; line-height: 1.6; color: #2A2E33; margin: 0; }
+.ja-contact-info-list a { color: #0F4C81; }
+
+/* --- Estimate form --- */
+.ja-form-card { background: #FFFFFF; }
+.ja-form-card h2 {
+    font-family: 'Hanken Grotesk', sans-serif; font-size: 30px; line-height: 1.15;
+    letter-spacing: -0.02em; font-weight: 800; color: #0F4C81; margin: 0 0 22px;
+}
+.ja-form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 20px; }
+.ja-form-field { margin-bottom: 16px; }
+.ja-form-field.ja-form-field-full { grid-column: 1 / -1; }
+.ja-form-field input,
+.ja-form-field select,
+.ja-form-field textarea {
+    width: 100%; font-family: 'Work Sans', Helvetica, sans-serif; font-size: 15px; color: #2A2E33;
+    background: #FFFFFF; border: 1.5px solid #CBD5E1; border-radius: 6px; padding: 14px 16px;
+}
+.ja-form-field input:focus,
+.ja-form-field select:focus,
+.ja-form-field textarea:focus { outline: none; border-color: #0F4C81; }
+.ja-form-field textarea { min-height: 130px; resize: vertical; }
+.ja-form-submit {
+    font-family: 'Work Sans', Helvetica, sans-serif; font-size: 15px; font-weight: 700;
+    letter-spacing: 0.04em; text-transform: uppercase; color: #FFFFFF; background: #E31E24;
+    padding: 16px 30px; border-radius: 6px; border: none; cursor: pointer;
+}
+.ja-form-submit:hover { background: #B9161C; }
+
+/* --- FAQ accordion (native <details>) --- */
+.ja-faq-section { background: #F4F6F9; border-top: 1px solid #E2E5EA; border-bottom: 1px solid #E2E5EA; padding: 96px 0; }
+.ja-faq-inner { max-width: 1240px; margin: 0 auto; padding: 0 32px; }
+.ja-faq-inner > h2 {
+    font-family: 'Hanken Grotesk', sans-serif; font-size: 40px; line-height: 1.05;
+    letter-spacing: -0.025em; font-weight: 800; color: #0F4C81; margin: 0 0 48px; text-align: center;
+}
+.ja-faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 32px; }
+.ja-faq-item { background: #FFFFFF; border: 1px solid #E2E5EA; border-radius: 10px; margin-bottom: 14px; padding: 6px 22px; }
+.ja-faq-item summary { font-family: 'Hanken Grotesk', sans-serif; font-size: 17px; font-weight: 700; color: #0F4C81; padding: 16px 0; cursor: pointer; list-style: none; }
+.ja-faq-item summary::-webkit-details-marker { display: none; }
+.ja-faq-item summary::after { content: "+"; float: right; font-weight: 400; color: #E31E24; }
+.ja-faq-item[open] summary::after { content: "\2212"; }
+.ja-faq-item p { font-size: 16px; line-height: 1.65; color: #5C636D; margin: 0 0 18px; }
+
+/* --- 404 --- */
+.ja-error-section { padding: 128px 0; text-align: center; background: #FFFFFF; }
+.ja-error-code { font-family: 'Hanken Grotesk', sans-serif; font-size: 120px; line-height: 1; font-weight: 800; color: #E31E24; margin: 0 0 8px; }
+.ja-error-section h2 {
+    font-family: 'Hanken Grotesk', sans-serif; font-size: 32px; font-weight: 800; color: #0F4C81; margin: 0 0 16px;
+}
+.ja-error-section p { font-size: 17px; color: #5C636D; margin: 0 0 32px; }
+
+/* ===================== Responsive ===================== */
+
+@media (max-width: 900px) {
+    .ja-comingsoon-gallery { grid-template-columns: 1fr 1fr; }
+    .ja-split-info { grid-template-columns: 1fr; gap: 40px; }
+    .ja-faq-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+    .ja-page-intro { padding: 64px 0 24px; }
+    .ja-page-intro-inner { padding: 0 20px; }
+    .ja-comingsoon-section { padding: 16px 0 64px; }
+    .ja-comingsoon-inner { padding: 0 20px; }
+    .ja-comingsoon-gallery { grid-template-columns: 1fr; }
+    .ja-comingsoon-card { padding: 36px 24px; }
+    .ja-split-info { padding: 0 20px; }
+    .ja-form-grid { grid-template-columns: 1fr; }
+    .ja-faq-section { padding: 56px 0; }
+    .ja-faq-inner { padding: 0 20px; }
+    .ja-error-section { padding: 72px 0; }
+    .ja-error-code { font-size: 80px; }
+}

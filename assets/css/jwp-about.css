@@ -1,0 +1,70 @@
+/* ==============================================
+   JWP About Page — page-specific additions
+   Loads after jwp-design-system.css
+   =============================================== */
+
+/* --- Bio section --- */
+.ja-bio-section { padding: 104px 0 108px; background: #FFFFFF; }
+.ja-bio-grid { max-width: 1240px; margin: 0 auto; padding: 0 32px; display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 72px; align-items: start; }
+.ja-bio-images { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.ja-bio-images .ja-photo-main { grid-column: 1 / -1; height: 380px; }
+.ja-bio-images .ja-photo-sm { height: 180px; }
+.ja-bio-images .ja-photo-main,
+.ja-bio-images .ja-photo-sm { border-radius: 12px; overflow: hidden; }
+.ja-split-photo { overflow: hidden; }
+.ja-bio-images .ja-photo-main img,
+.ja-bio-images .ja-photo-sm img,
+.ja-split-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.ja-bio-content h2 {
+    font-family: 'Hanken Grotesk', sans-serif; font-size: 46px; line-height: 1.06;
+    letter-spacing: -0.03em; font-weight: 800; color: #0F4C81; margin: 0 0 26px;
+}
+.ja-quote-p {
+    font-size: 20px; line-height: 1.65; color: #2A2E33; margin: 0 0 22px;
+    padding-left: 22px; border-left: 3px solid #FFB400;
+}
+.ja-bio-content p.ja-body { font-size: 17px; line-height: 1.8; color: #5C636D; margin: 0 0 28px; }
+
+/* --- Split photo / navy panel --- */
+.ja-split { display: grid; grid-template-columns: 1fr 1fr; align-items: stretch; }
+.ja-split-photo { min-height: 560px; }
+.ja-split-content { background: #082744; color: #C6D6E4; padding: 88px 72px; display: flex; flex-direction: column; justify-content: center; }
+.ja-split-content h2 {
+    font-family: 'Hanken Grotesk', sans-serif; font-size: 44px; line-height: 1.05;
+    letter-spacing: -0.03em; font-weight: 800; color: #FFFFFF; margin: 0 0 22px;
+}
+.ja-split-content > p { font-size: 17px; line-height: 1.8; margin: 0 0 40px; max-width: 560px; }
+.ja-split-content h3 {
+    font-family: 'Hanken Grotesk', sans-serif; font-size: 14px; font-weight: 600;
+    letter-spacing: 0.18em; text-transform: uppercase; color: #FFB400; margin: 0 0 20px;
+}
+.ja-principles { display: flex; flex-direction: column; gap: 2px; max-width: 560px; margin: 0 0 44px; }
+.ja-principles li {
+    display: flex; align-items: center; gap: 14px; padding: 14px 0;
+    border-bottom: 1px solid #17436C; font-size: 17px; font-weight: 500; color: #FFFFFF;
+}
+.ja-principles li:last-child { border-bottom: none; }
+.ja-principles svg { flex: none; }
+.ja-split-content > p.ja-closing { margin: 0; max-width: 560px; }
+
+/* ===================== Responsive ===================== */
+
+@media (max-width: 900px) {
+    .ja-bio-grid { grid-template-columns: 1fr; gap: 48px; }
+    .ja-bio-content h2 { font-size: 36px; }
+    .ja-split { grid-template-columns: 1fr; }
+    .ja-split-photo { min-height: 320px; }
+    .ja-split-content { padding: 56px 40px; }
+}
+
+@media (max-width: 640px) {
+    .ja-bio-section { padding: 64px 0 68px; }
+    .ja-bio-grid { padding: 0 20px; gap: 36px; }
+    .ja-bio-images .ja-photo-main { height: 260px; }
+    .ja-bio-images .ja-photo-sm { height: 140px; }
+    .ja-bio-content h2 { font-size: 28px; }
+    .ja-quote-p { font-size: 18px; }
+    .ja-split-content { padding: 44px 20px; }
+    .ja-split-content h2 { font-size: 30px; }
+}

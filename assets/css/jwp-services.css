@@ -1,0 +1,23 @@
+/* ==============================================
+   JWP Services Page — page-specific additions
+   Loads after jwp-design-system.css
+   =============================================== */
+
+.ja-svc-grid-wide { margin-top: 26px; }
+.ja-wide-feature {
+    background: #F4F6F9; border: 1px solid #E2E5EA; border-radius: 12px;
+    display: grid; grid-template-columns: 280px 1fr; gap: 0; overflow: hidden;
+}
+.ja-wide-feature .ja-photo-placeholder { min-height: 190px; border-radius: 0; padding: 0; overflow: hidden; }
+.ja-wide-feature .ja-photo-placeholder img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.ja-wide-feature-body { padding: 36px 40px; display: flex; flex-direction: column; gap: 12px; justify-content: center; }
+.ja-wide-feature-body h3 {
+    font-family: 'Hanken Grotesk', sans-serif; font-size: 26px; line-height: 1.2;
+    letter-spacing: -0.02em; font-weight: 700; color: #0F4C81; margin: 0;
+}
+.ja-wide-feature-body p { font-size: 17px; line-height: 1.7; color: #5C636D; margin: 0; max-width: 720px; }
+
+@media (max-width: 640px) {
+    .ja-wide-feature { grid-template-columns: 1fr; }
+    .ja-wide-feature-body { padding: 28px 24px 32px; }
+}

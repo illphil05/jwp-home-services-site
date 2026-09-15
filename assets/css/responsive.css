@@ -1,0 +1,1305 @@
+
+@media only screen and (max-width: 5000px){
+.boxed_wrapper_box_page{
+    overflow-x: hidden;
+}
+ 
+
+}
+
+
+/* Large Layout: 1200px. */
+@media only screen and (min-width: 1200px){
+
+
+    
+
+ 
+    
+}
+
+
+
+/* Medium screen  */ 
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+
+/*** Header Style One Css ***/       
+.header-top-left {
+    max-width: 230px;
+}    
+.header-top-right {
+    max-width: 685px;
+}     
+.header-right .outer-search-box-style1 {
+    float: right;
+    padding: 30px 0;
+    margin-right: 0;
+}    
+
+/*** Slogan Area Css ***/      
+.slogan-content {
+    padding: 34px 0px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slogan-content .right {
+    padding-top: 21px;
+}
+    
+/*** Latest Project Style1 Area Css ***/ 
+.latest-project-style1-area {
+    padding: 100px 0 100px;
+}
+.latest-project-style1-title {
+    padding-bottom: 52px;
+}    
+.latest-project-style1-content {
+    margin-right: 0px;
+}
+.single-project-style1 .img-holder .overlay-content h3 {
+    font-size: 20px;
+}
+.project-style1-contact-info {
+    flex-direction: inherit;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 110px;
+}
+.project-style1-contact-info .right {
+    padding-top: 28px;
+}    
+.project-style1-carousel.owl-nav-style-one.owl-theme .owl-nav {
+    top: auto;
+    right: auto;
+    left: 0;
+    bottom: -70px;
+}
+
+/*** About Team Area Css ***/ 
+.single-team-member {
+    width: 50%;
+}    
+    
+/*** Footer Area Css ***/    
+.single-footer-widget.marbtm{
+    margin-bottom: 50px;
+}
+.single-footer-widget.marlftminus {
+    margin-left: 0px;
+}       
+    
+/*** Banner Area Css ***/ 
+.banner-area {
+    padding: 100px 0 100px;
+}    
+.banner-right-content {
+    margin-left: 0;
+    margin-top: 150px;
+}    
+.banner-right-content .quote-form {
+    max-width: 720px;
+    width: 100%;
+    float: none;
+}  
+.quote-form .title-box:before {
+    background-position: inherit;
+}    
+
+.quote-form .title-box {
+    padding: 29px 0 29px;
+}    
+.quote-form .title-box:before {
+    opacity: 0;
+}       
+    
+/*** Services Details Area Css ***/ 
+.services-details-area {
+    padding: 100px 0 100px;
+}    
+.service-details-contact-box {
+    padding: 36px 30px 45px;
+    margin-top: 50px;
+}
+    
+.services-details-top-image .single-image.left-image {
+    margin-right: 0;
+}    
+.services-details-top-image .single-image.right-image {
+    margin-left: 0px;
+}    
+.services-details-text-box-2 .img-box {
+    margin-right: 0;
+}    
+.services-details-text-box-2 .text-box {
+    margin-top: 40px;
+}    
+
+/*** Why Choose Style2 Area Css ***/     
+.choose-style2-content {
+    max-width: 540px;
+    min-height: 555px;
+    padding-left: 0px;
+}   
+.choose-style2-content h2 {
+    font-size: 32px;
+    line-height: 44px;
+    margin: 0 0 25px;
+}    
+
+/*** About Style1 Area Css ***/      
+.about-style1-content-box {
+    margin-bottom: 60px;
+}    
+
+/*** Contact Info Style1 Area Css ***/       
+.style1-contact-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 30px 50px;
+    text-align: center;
+}    
+.style1-contact-info .right {
+    padding-top: 18px;
+}    
+ 
+/*** Payment Method Area Css ***/       
+.payment-method-image-box {
+    padding-top: 40px;
+}    
+    
+/*** Transparency Area Css ***/
+.transparency-area {
+    padding: 100px 0 100px;
+}    
+.transparency-image-box {
+    float: none;
+}    
+    
+/*** Blog Area Css ***/
+.sidebar-wrapper {
+    float: right;
+}
+ 
+/*** Job Details Area Css ***/    
+.job-details-button {
+    float: none;
+    padding: 28px 0 31px;
+}    
+    
+/*** Contact Form Style1 Area Css ***/      
+.contact-page-book-appintment-box {
+    padding-top: 50px;
+}    
+.address-box {
+    padding-bottom: 50px;
+}    
+.address-area {
+    padding: 100px 0 100px;
+}    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
+
+@media only screen and (max-width: 1199px) {
+    /*** Why Choose Style2 Area Css ***/ 
+.why-choose-style2-area {
+    min-height: auto;
+    padding: 100px 0;
+}    
+.why-choose-style2-bg {
+    display: none;
+}  
+.choose-style2-content {
+    max-width: 100%;
+    width: 100%;
+    min-height: auto;
+    float: none;
+    display: block;
+    padding-left: 0;
+} 
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    
+/*** Header Style One Css ***/
+.header-top-bg {
+    display: none;
+}    
+.header-top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 230px;
+    width: 100%;
+}  
+.header-top-left .logo {
+    padding: 23px 0;
+}      
+.header-top-right {
+    display: none;
+}
+    
+.header {
+    background: #0a1835;
+}    
+.header-left {
+    float: none;
+}  
+.header-right {
+    position: absolute;
+    top: 0;
+    right: 75px;
+}    
+.header-right .outer-search-box-style1 {
+    float: right;
+    padding: 30px 0;
+    margin-right: 0;
+}       
+.outer-search-box-style1 .seach-toggle {
+    color: #ffffff;
+}    
+    
+/*** Slogan Area Css ***/      
+.slogan-content {
+    padding: 34px 0px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slogan-content .right {
+    padding-top: 21px;
+}        
+
+/*** Service Style1 Area Css ***/      
+.service-style1-area {
+    padding: 100px 0 70px;
+}    
+
+/*** Choosing Area Css ***/ 
+.choosing-area {
+    padding: 100px 0 100px;
+}       
+.value-box {
+    margin-top: 48px;
+}    
+    
+/*** Latest Project Style1 Area Css ***/ 
+.latest-project-style1-area {
+    padding: 100px 0 100px;
+}
+.latest-project-style1-title {
+    padding-bottom: 52px;
+}    
+.latest-project-style1-content {
+    margin-right: 0px;
+}
+.single-project-style1 .img-holder .overlay-content h3 {
+    font-size: 20px;
+}
+.project-style1-contact-info {
+    flex-direction: inherit;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 110px;
+}
+.project-style1-contact-info .right {
+    padding-top: 28px;
+}       
+.project-style1-contact-info .left h2 br{
+    display: none;
+}    
+.project-style1-carousel.owl-nav-style-one.owl-theme .owl-nav {
+    top: auto;
+    right: auto;
+    left: 0;
+    bottom: -70px;
+}     
+    
+/*** About Team Area Css ***/ 
+.single-team-member {
+    width: 50%;
+}    
+
+/*** Footer Area Css ***/
+.footer-top {
+    padding: 38px 0;
+}    
+.footer-top-contact-box ul {
+    max-width: 300px;
+}    
+.footer-top-contact-box ul li {
+    display: block;
+    float: none;
+    padding-right: 0px;
+    margin-right: 0px;
+    border-right: 0px solid rgba(255, 255, 255, 0.07);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 22px;
+}    
+.footer-top-contact-box ul li:last-child{
+    margin-bottom: 0;
+}    
+   
+.single-footer-widget.marbtm{
+    margin-bottom: 50px;
+}
+.single-footer-widget.marlftminus {
+    margin-left: 0px;
+}    
+    
+
+/*** Banner Area Css ***/ 
+.banner-area {
+    padding: 100px 0 100px;
+}  
+.banner-left-content {
+    z-index: 10;
+}    
+.banner-right-content {
+    margin-left: 0;
+    margin-top: 150px;
+}    
+.banner-right-content .quote-form {
+    max-width: 720px;
+    width: 100%;
+    float: none;
+}  
+.quote-form .title-box {
+    padding: 29px 0 29px;
+}    
+.quote-form .title-box:before {
+    opacity: 0;
+}   
+    
+/*** Services Details Area Css ***/ 
+.services-details-area {
+    padding: 100px 0 100px;
+}    
+.services-details-content {
+    padding-left: 0px;
+}    
+.service-details-contact-box {
+    margin-top: 50px;
+}    
+.money-back-gurantee-logo-box {
+    padding: 35px 0 0;
+}    
+.sidebar-style1 {
+    max-width: 400px;
+    width: 100%;
+    margin-top: 70px;
+}    
+    
+.services-details-top-image .single-image.left-image {
+    margin-right: 0;
+}    
+.services-details-top-image .single-image.right-image {
+    margin-left: 0px;
+}    
+.services-details-text-box-2 .img-box {
+    margin-right: 0;
+}    
+.services-details-text-box-2 .text-box {
+    margin-top: 40px;
+}    
+ 
+/*** Rtl Page Css ***/     
+.rtl .header-top-left {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+}
+.rtl .header-right {
+    position: absolute;
+    top: 0;
+    right: auto;
+    left: 50px;
+    z-index: 10;
+}
+.rtl .nav-outer .mobile-nav-toggler {
+    display: block;
+    float: left;
+}
+.rtl .banner-left-content ul li {
+    padding-left: 0;
+} 
+    
+/*** Plumbing Service Area Css ***/      
+.plumbing-service-text-box {
+    margin-top: 40px;
+}    
+    
+   
+    
+/*** About Style1 Area Css ***/      
+.about-style1-content-box {
+    margin-bottom: 60px;
+}    
+   
+/*** Contact Info Style1 Area Css ***/       
+.style1-contact-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 30px 50px;
+    text-align: center;
+}
+.style1-contact-info .left h2 a br{
+    display: none;
+}    
+.style1-contact-info .right {
+    padding-top: 18px;
+}    
+    
+/*** Project Style2 Area Css ***/       
+.project-menu-box {
+    padding-bottom: 33px;
+}    
+    
+/*** Payment Method Area Css ***/       
+.payment-method-image-box {
+    padding-top: 40px;
+}    
+   
+/*** Transparency Area Css ***/
+.transparency-area {
+    padding: 100px 0 100px;
+}    
+.transparency-image-box {
+    float: none;
+    padding-top: 4px;
+}       
+    
+/*** Blog Area Css ***/
+.blog-style2-area .blog-posts {
+    max-width: 100%;
+    width: 100%;
+}    
+.sidebar-wrapper {
+    margin-top: 80px;
+}
+   
+/*** Appointment Area Css ***/
+.appointment-title h2 br{
+    display: none;
+}    
+    
+/*** Job Details Area Css ***/    
+.job-details-button {
+    float: none;
+    padding: 28px 0 31px;
+}    
+        
+/*** Contact Form Style1 Area Css ***/      
+.contact-page-book-appintment-box {
+    padding-top: 50px;
+}    
+.address-box {
+    padding-bottom: 50px;
+}    
+.address-area {
+    padding: 100px 0 100px;
+}    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+    
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {   
+.sec-title h2 br{
+    display: none;
+}  
+        
+/*** Header Style One Css ***/
+.header-top-bg {
+    display: none;
+}    
+.header-top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 230px;
+    width: 100%;
+}  
+.header-top-left .logo {
+    padding: 23px 0;
+}      
+.header-top-right {
+    display: none;
+}
+    
+.header {
+    background: #0a1835;
+}    
+.header-left {
+    float: none;
+}  
+.header-right {
+    position: absolute;
+    top: 0;
+    right: 60px;
+    display: none;
+}    
+.header-right .outer-search-box-style1 {
+    float: right;
+    padding: 30px 0;
+    margin-right: 0;
+}       
+.outer-search-box-style1 .seach-toggle {
+    color: #ffffff;
+}    
+    
+/*** Slogan Area Css ***/      
+.slogan-content {
+    padding: 34px 0px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slogan-content .right {
+    padding-top: 21px;
+}    
+.slogan-content .right .btns-box a {
+    padding-left: 20px;
+    padding-right: 20px;
+}    
+    
+/*** Service Style1 Area Css ***/      
+.service-style1-area {
+    padding: 100px 0 70px;
+}      
+    
+/*** Choosing Area Css ***/ 
+.choosing-area {
+    padding: 100px 0 100px;
+}    
+.value-box {
+    margin-top: 48px;
+}    
+
+/*** Choosing Area Css ***/     
+.professional-servies-tabs .tab-button-column .tab-buttons {
+    max-width: 300px;
+}    
+    
+/*** Latest Project Style1 Area Css ***/ 
+.latest-project-style1-area {
+    padding: 100px 0 100px;
+}
+.latest-project-style1-title {
+    padding-bottom: 52px;
+}    
+.latest-project-style1-content {
+    margin-right: 0px;
+}
+.single-project-style1 .img-holder .overlay-content h3 {
+    font-size: 20px;
+}
+.project-style1-contact-info {
+    flex-direction: inherit;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 110px;
+}
+.project-style1-contact-info .right {
+    padding-top: 28px;
+}       
+.project-style1-contact-info .left h2 br{
+    display: none;
+}    
+.project-style1-carousel.owl-nav-style-one.owl-theme .owl-nav {
+    top: auto;
+    right: auto;
+    left: 0;
+    bottom: -70px;
+}     
+    
+/*** About Team Area Css ***/ 
+.single-team-member {
+    width: 100%;
+}    
+    
+/*** Footer Area Css ***/
+.footer-top {
+    padding: 38px 0;
+}    
+.footer-top-contact-box ul {
+    max-width: 300px;
+}    
+.footer-top-contact-box ul li {
+    display: block;
+    float: none;
+    padding-right: 0px;
+    margin-right: 0px;
+    border-right: 0px solid rgba(255, 255, 255, 0.07);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 22px;
+}    
+.footer-top-contact-box ul li:last-child{
+    margin-bottom: 0;
+}    
+ 
+.footer {
+    padding: 70px 0 70px;
+}    
+.single-footer-widget.marbtm{
+    margin-bottom: 50px;
+}
+.single-footer-widget.marlftminus {
+    margin-left: 0px;
+}    
+   
+.footer-widget-shape1 {
+    visibility: hidden;
+}    
+    
+/*** Banner Area Css ***/ 
+.banner-area {
+    padding: 100px 0 100px;
+}  
+.banner-left-content {
+    padding: 0;
+    z-index: 10;
+}    
+.banner-right-content {
+    margin-left: 0;
+    margin-top: 450px;
+}    
+.banner-right-content .quote-form {
+    max-width: 720px;
+    width: 100%;
+    float: none;
+} 
+
+.quote-form .title-box {
+    padding: 29px 0 29px;
+}    
+.quote-form .title-box:before {
+    opacity: 0;
+}    
+    
+.quote-form .title-box:before {
+    background-position: center;
+}       
+.banner-middle-content .img-box {
+    top: 40px;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: auto;
+} 
+    
+/*** Services Details Area Css ***/ 
+.services-details-area {
+    padding: 100px 0 100px;
+}    
+.services-details-content {
+    padding-left: 0px;
+}    
+.service-details-contact-box {
+    margin-top: 50px;
+}    
+.money-back-gurantee-logo-box {
+    padding: 35px 0 0;
+}    
+.sidebar-style1 {
+    max-width: 400px;
+    width: 100%;
+    margin-top: 70px;
+}    
+   
+.services-details-top-image .single-image.left-image {
+    margin-right: 0;
+}    
+.services-details-top-image .single-image.right-image {
+    margin-left: 0px;
+}    
+.services-details-text-box-2 .img-box {
+    margin-right: 0;
+}    
+.services-details-text-box-2 .text-box {
+    margin-top: 40px;
+}        
+    
+    
+/*** Rtl Page Css ***/     
+.rtl .header-top-left {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+}
+.rtl .header-right {
+    position: absolute;
+    top: 0;
+    right: auto;
+    left: 50px;
+    z-index: 10;
+}
+.rtl .nav-outer .mobile-nav-toggler {
+    display: block;
+    float: left;
+}
+.rtl .banner-left-content ul li {
+    padding-left: 0;
+}   
+.rtl .single-footer-widget.marlftminus {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+    
+/*** Plumbing Service Area Css ***/ 
+.plumbing-service-image-box {
+    padding-bottom: 0px;
+}    
+.plumbing-service-image-box .image-box2 {
+    position: relative;
+    bottom: 0;
+    right: 0;
+}    
+.plumbing-service-text-box {
+    margin-top: 40px;
+}    
+.plumbing-service-text-box .title h2 br{
+    display: none;
+}
+
+/*** Breadcrumb Area Css ***/     
+.breadcrumb-area .inner-content .layer-outer {
+    display: none;
+}
+.breadcrumb-area .title h2 {
+    font-size: 42px;
+}    
+    
+/*** Why Choose Style2 Area Css ***/ 
+.why-choose-style2-area {
+    min-height: auto;
+    padding: 100px 0;
+}    
+.why-choose-style2-bg {
+    display: none;
+}  
+.choose-style2-content {
+    max-width: 100%;
+    width: 100%;
+    min-height: auto;
+    float: none;
+    display: block;
+    padding-left: 0;
+}    
+        
+/*** About Style1 Area Css ***/      
+.about-style1-content-box {
+    margin-bottom: 50px;
+}    
+  
+/*** Contact Info Style1 Area Css ***/       
+.style1-contact-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 15px 50px;
+    text-align: center;
+}
+.style1-contact-info .left h2 a br{
+    display: none;
+}    
+.style1-contact-info .right {
+    padding-top: 18px;
+}    
+    
+/*** Project Style2 Area Css ***/       
+.project-menu-box {
+    padding-bottom: 33px;
+}    
+   
+/*** Payment Method Area Css ***/
+.payment-method-content .title h2 br{
+    display: none;
+}    
+.payment-method-image-box {
+    padding-top: 40px;
+}    
+   
+/*** Transparency Area Css ***/
+.transparency-area {
+    padding: 100px 0 100px;
+}    
+.transparency-image-box {
+    float: none;
+    padding-top: 4px;
+}       
+ 
+/*** Coupon Area Css ***/ 
+.single-coupon-box {
+    padding: 30px 35px 36px;
+}    
+.single-coupon-box .left {
+    max-width: 100%;
+    width: 100%;
+    padding: 0px 0 20px;
+    float: none;
+}    
+.single-coupon-box .right {
+    position: relative;
+    display: block;
+    float: none;
+}  
+ 
+/*** Blog Area Css ***/
+.blog-style2-area .blog-posts {
+    max-width: 100%;
+    width: 100%;
+}    
+.sidebar-wrapper {
+    margin-top: 80px;
+}
+.comment-box .single-comment-box.marleft {
+    margin-left: 30px;
+}   
+
+.comment-box .single-comment-box .text-holder {
+    padding-left: 20px;
+}    
+.add-comment-box #add-comment-form {
+    padding: 50px 20px;
+}
+    
+/*** Appointment Area Css ***/
+.appointment-form-box {
+    padding: 47px 15px 60px;
+}    
+.appointment-title h2 br{
+    display: none;
+}        
+.appointment-form-button button {
+    line-height: 60px;
+    letter-spacing: 0.05em;
+}    
+    
+/*** Job Details Area Css ***/    
+.job-details-button {
+    float: none;
+    padding: 28px 0 31px;
+}    
+    
+/*** Job Details Area Css ***/       
+.error-content .title {
+    font-size: 142px;
+    margin: 17px 0 12px;
+}  
+    
+/*** Contact Form Style1 Area Css ***/      
+.contact-page-book-appintment-box {
+    padding-top: 50px;
+}    
+.address-box {
+    padding-bottom: 50px;
+}    
+.address-area {
+    padding: 100px 0 100px;
+}    
+   
+    
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+    
+.main-menu .navigation > li > ul,
+.main-menu .navigation > li > ul > li > ul{
+    display:block !important;
+    visibility:hidden;
+    opacity:0;
+}
+    
+    
+    
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 1199px) {
+
+/*** 
+=============================================
+    Header Style One Css
+=============================================
+***/
+
+
+    
+   
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+.nav-outer .mobile-nav-toggler .inner {
+    background-image: -moz-linear-gradient( 90deg, rgb(228,23,38) 0%, rgb(231,68,74) 99%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(228,23,38) 0%, rgb(231,68,74) 99%);
+    background-image: -ms-linear-gradient( 90deg, rgb(228,23,38) 0%, rgb(231,68,74) 99%);
+}     
+.main-header .main-menu {
+    position: relative;
+    display: block;
+    width: 100%;
+    float: none;
+}      
+.main-header .nav-outer .main-menu,
+.mainmenu-area .nav-outer .main-menu,
+.sticky-header{
+    display: none !important;
+}
+.nav-outer .mobile-nav-toggler{
+    display: block;
+}
+.mobile-nav-toggler .icon-bar {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    height: 2px;
+    width: 30px;
+    margin: 7px 5px;
+} 
+    
+
+      
+
+    
+
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1390px) { 
+ 
+/*** Main Slider Css ***/     
+.main-slider .auto-container {
+    padding: 0px 120px;
+} 
+
+  
+    
+    
+    
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+
+/*** Main Slider Css ***/     
+.main-slider .auto-container {
+    padding: 0px 120px;
+}
+.main-slider.style1 {
+    margin-top: 0;
+}       
+.main-slider .content h2 {
+    font-size: 60px;
+    line-height: 1.1em;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 59px;
+}
+    
+    
+    
+  
+    
+    
+    
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    
+/*** Main Slider Css ***/   
+.main-slider .auto-container {
+    padding: 0px 120px;
+}
+.main-slider.style1 {
+    margin-top: 0;
+}  
+.main-slider .content h2 {
+    font-size: 50px;
+    line-height: 1.1em;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-bottom: 51px;
+}
+.main-slider .icon-holder {
+    top: 50px;
+}  
+    
+    
+    
+
+    
+    
+    
+
+    
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 500px) and (max-width: 767px) { 
+    
+/*** Main Slider Css ***/ 
+.main-slider .auto-container {
+    padding: 0px 70px;
+    padding-right: 30px;
+}
+.main-slider .owl-theme .owl-nav .owl-prev {
+    left: 0px;
+}    
+.main-slider .owl-theme .owl-nav .owl-next {
+    right: 0px;
+}
+.main-slider .slide {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 93px 0px 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}    
+.main-slider.style1 {
+    margin-top: 0;
+}  
+.main-slider .content h2 {
+    font-size: 40px;
+    line-height: 1.1em;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 42px;
+}
+.main-slider .icon-holder {
+    display: none;
+}  
+.main-slider .content .btns-box a.btn-one{
+    line-height: 50px;
+}   
+.main-slider .content .btns-box a.btn-one i.round {
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+}
+    
+    
+    
+    
+
+    
+    
+}
+
+
+
+@media only screen and (max-width: 499px) {
+    
+/*** Main Slider Css ***/ 
+.main-slider .auto-container {
+    padding: 0px 30px;
+}   
+.main-slider .owl-theme .owl-nav .owl-prev {
+    display: none;
+}    
+.main-slider .owl-theme .owl-nav .owl-next {
+    display: none;
+}   
+.main-slider.style1 {
+    margin-top: 0;
+}  
+.main-slider .slide {
+    padding: 93px 0px 100px;
+}  
+.main-slider .content h2 {
+    font-size: 30px;
+    line-height: 1.1em;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 37px;
+}
+.main-slider .icon-holder {
+    display: none;
+}  
+.main-slider .content .btns-box a.btn-one{
+    line-height: 50px;
+}   
+.main-slider .content .btns-box a.btn-one i.round {
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+}
+
+
+    
+    
+    
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1800px) { 
+    
+/*** Latest Project Style1 Area Css ***/ 
+.latest-project-style1-area {
+    padding: 100px 0 100px;
+}    
+.latest-project-style1-content {
+    margin-right: 0px;
+}
+.single-project-style1 .img-holder .overlay-content h3 {
+    font-size: 20px;
+}
+.project-style1-contact-info {
+    flex-direction: inherit;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 90px;
+}
+.project-style1-contact-info .right {
+    padding-top: 28px;
+} 
+    
+.project-style1-carousel.owl-nav-style-one.owl-theme .owl-nav {
+    top: auto;
+    right: auto;
+    left: -300px;
+    bottom: 0px;
+}    
+     
+    
+    
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) { 
+
+/*** Why Choose Style2 Area Css ***/     
+.choose-style2-content {
+    padding-left: 160px;
+}
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.order-box-2 {
+    -ms-flex-order: 2;
+    order: 2;
+}
+.order-box-1 {
+    -ms-flex-order: 1;
+    order: 1;
+}  
+
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 767px) { 
+.order-box-2 {
+    -ms-flex-order: 2;
+    order: 2;
+}
+.order-box-1 {
+    -ms-flex-order: 1;
+    order: 1;
+} 
+
+}
