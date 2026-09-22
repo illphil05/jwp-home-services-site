@@ -224,29 +224,55 @@
 
 /* Mobile: ~640px and below */
 @media (max-width: 640px) {
-    .ja-topbar-inner { padding: 10px 20px; font-size: 12px; }
-    .ja-header-inner { padding: 14px 20px; }
-    .ja-header-actions { width: 100%; margin-left: 0; }
+    .ja-topbar { display: none; }
+    .ja-topbar-inner { padding: 9px 20px; font-size: 11px; flex-direction: column; gap: 10px; }
+    .ja-topbar-left { gap: 12px; }
+    .ja-topbar-sms { margin-left: auto; }
+    .ja-header { position: relative; }
+    .ja-header-inner { padding: 12px 20px; gap: 10px 12px; }
+    .ja-nav { display: none; font-size: 13px; gap: 8px 12px; margin-left: 0; }
+    .ja-header-actions { width: 100%; margin-left: 0; gap: 6px; }
     .ja-header-actions .ja-btn-outline { display: none; }
-    .ja-header-actions .ja-btn-primary { flex: 1; justify-content: center; }
-    .ja-nav { font-size: 14px; gap: 10px 16px; }
-    .ja-hero-inner { padding: 52px 20px 56px; }
-    .ja-hero h1 { font-size: 34px; }
-    .ja-section-intro h2 { font-size: 30px; }
-    .ja-svc-grid { grid-template-columns: 1fr; }
-    .ja-svc-card .ja-photo-placeholder { height: 170px; }
-    .ja-info-card { padding: 32px 24px 36px; }
-    .ja-promo-strip-inner { padding: 32px 20px; }
-    .ja-promo-strip h2 { font-size: 28px; }
-    .ja-why-section { padding: 56px 0; }
+    .ja-header-actions .ja-btn-primary { flex: 1; font-size: 13px; padding: 11px 14px; gap: 6px; }
+    .ja-header-actions .ja-btn-primary svg { width: 12px; height: 12px; }
+    .ja-hero-inner { padding: 48px 20px 52px; }
+    .ja-hero h1 { font-size: 32px; line-height: 1.1; margin-bottom: 14px; }
+    .ja-hero-inner p { font-size: 15px; }
+    .ja-eyebrow-row { margin-bottom: 12px; }
+    .ja-eyebrow { font-size: 11px; }
+    .ja-section-intro { margin-bottom: 40px; }
+    .ja-section-intro h2 { font-size: 28px; margin-bottom: 14px; }
+    .ja-section-intro p { font-size: 15px; }
+    .ja-svc-grid { grid-template-columns: 1fr; gap: 16px; }
+    .ja-svc-card .ja-photo-placeholder { height: 160px; }
+    .ja-svc-card-body { padding: 32px 20px 24px; }
+    .ja-svc-card-body h3 { font-size: 19px; }
+    .ja-svc-card-body p { font-size: 14px; }
+    .ja-info-card { padding: 28px 20px 32px; }
+    .ja-info-card h3 { font-size: 26px; }
+    .ja-info-card p { font-size: 15px; }
+    .ja-promo-strip-inner { padding: 28px 20px; flex-direction: column; gap: 24px; }
+    .ja-promo-strip h2 { font-size: 26px; margin-bottom: 8px; }
+    .ja-promo-strip p { font-size: 15px; }
+    .ja-promo-strip .ja-btn-primary { width: 100%; }
+    .ja-why-section { padding: 48px 0; }
     .ja-why-inner { padding: 0 20px; }
-    .ja-why-inner h2 { font-size: 30px; margin-bottom: 28px; }
-    .ja-why-grid { grid-template-columns: repeat(2, 1fr); }
-    .ja-final-cta { padding: 64px 0 68px; }
+    .ja-why-inner h2 { font-size: 28px; margin-bottom: 24px; }
+    .ja-why-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    .ja-why-card { padding: 18px 16px; }
+    .ja-why-label { font-size: 13px; }
+    .ja-final-cta { padding: 56px 0 60px; }
     .ja-final-cta-inner { padding: 0 20px; }
-    .ja-final-cta h2 { font-size: 34px; }
+    .ja-final-cta h2 { font-size: 32px; margin-bottom: 16px; }
+    .ja-final-cta-inner p { font-size: 16px; margin-bottom: 28px; }
+    .ja-cta-buttons { gap: 8px; }
+    .ja-cta-buttons .ja-btn-primary { font-size: 14px; padding: 14px 20px; }
+    .ja-cta-buttons .ja-btn-outline { font-size: 14px; padding: 14px 20px; }
     .ja-footer-inner { padding: 0 20px; }
-    .ja-footer-strip { flex-direction: column; padding: 32px 0; }
+    .ja-footer-strip { flex-direction: column; padding: 28px 0; gap: 20px; }
     .ja-footer-strip > div:last-child { text-align: left; }
-    .ja-footer-main { grid-template-columns: 1fr; gap: 36px; padding: 40px 0; }
+    .ja-footer-main { grid-template-columns: 1fr; gap: 28px; padding: 36px 0; }
+    .ja-footer-brand p { max-width: none; }
+    .ja-footer-col h3 { font-size: 11px; margin-bottom: 14px; }
+    .ja-footer-col ul { gap: 8px; font-size: 14px; }
 }
